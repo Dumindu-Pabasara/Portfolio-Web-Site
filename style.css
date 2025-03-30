@@ -100,4 +100,5 @@ a{
 .home-info .btn-sci .sci a:hover{
     background: #7cf03d;
     color: #1f242d;
+    box-shadow: 0 0 10px #7cf03d;
 }
