@@ -79,11 +79,7 @@ a{
     font-weight: 600;
     transition: .5s;
 }
-.btn:hover{
-    background: transparent;
-    color: #7cf03d;
-    box-shadow: none;
-}
+
 .home-info .btn-sci .sci{
     margin-left: 20px;
 }
