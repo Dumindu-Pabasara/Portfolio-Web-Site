@@ -21,7 +21,7 @@ a{
     padding: 25px 9%;
     background: slateblue;
     display: flex;
-    
+    justify-content: space-between;
     align-item : center;
     z-index: 100;
 }
