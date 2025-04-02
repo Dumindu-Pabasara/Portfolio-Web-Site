@@ -6,25 +6,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-body{
-    background-color: #1f242d;
-}
-a{
-    color: white;
-    text-decoration: none;
-}
-.navbar{
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    padding: 25px 9%;
-    background: slateblue;
-    display: flex;
-    justify-content: space-between;
-    align-item : center;
-    z-index: 100;
-}
+
 .navbar .logo{
     font-size: 30px;
     font-weight: 700;
