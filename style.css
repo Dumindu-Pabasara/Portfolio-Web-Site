@@ -103,21 +103,34 @@ a{
     box-shadow: 0 0 10px #7cf03d;
 }
 .home-img .img-box {
+    position: relative;
     width: 32vw;
     height: 32vw;
-    background: red;
     border-radius: 50%;
     padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
-
+.home-img .img-box::before,
+.home-img .img-box::after {
+    content: '';
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background: conic-gradient(transparent, transparent, transparent
+    , #7cf03d);
+}
 .home-img .img-box .img-item {
     position: relative;
     width: 100%;
     height: 100%;
-    background: slateblue;
+    background: #1f242d;
     border-radius: 50%;
     display: flex;
     justify-content: center;
+    z-index: 1;
     overflow: hidden;
 }
 .home-img .img-box .img-item img {
@@ -126,4 +139,5 @@ a{
     display: block;
     width: 85%;
     object-fit: cover;
+    mix-blend-mode: lighten;
 }
