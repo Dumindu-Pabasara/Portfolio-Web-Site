@@ -6,9 +6,9 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-body{
+/*body{
     background-color: #1f242d;
-}
+}*/
 a{
     color: white;
     text-decoration: none;
@@ -128,6 +128,7 @@ a{
     height: 100%;
     background: #1f242d;
     border-radius: 50%;
+    border: .1px solid #1f242d;
     display: flex;
     justify-content: center;
     z-index: 1;
