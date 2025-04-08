@@ -76,6 +76,7 @@ a{
     margin-top: -10px;
 }
 .home-info h2 span {
+    position: relative;
     display: inline-block;
     color: transparent;
     -webkit-text-stroke: .7px #7cf03d;
@@ -91,9 +92,21 @@ a{
 .home-info h2 span ::before {
     content: attr(data-text);
     position: absolute;
-    width: 0;
+    width: 0%;
     border-right: 2px solid #7cf03d;
     color: #7cf03d;
+    white-space: nowrap;
+    overflow: hidden;
+}
+@keyframes fill-text {
+    10%,
+    -100%{
+        width: 0;
+    }
+    70%,
+    90% {
+        width: 100%;
+    }
 }
 .home-info p{
     font-size: 16px;
