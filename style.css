@@ -97,6 +97,7 @@ a{
     color: #7cf03d;
     white-space: nowrap;
     overflow: hidden;
+    animation: fill-text 4s linear infinite;
 }
 @keyframes fill-text {
     10%,
@@ -170,6 +171,16 @@ a{
     height: 500px;
     background: conic-gradient(transparent, transparent, transparent
     , #7cf03d);
+    transform: rotate(0deg);
+    animation: rotate-border 10s linear infinite;
+}
+.home-img .img-box::after {
+    animation-delay: -5s;
+}
+@keyframes rotate-border {
+    100% {
+        transform: rotate(360deg);
+    }
 }
 .home-img .img-box .img-item {
     position: relative;
