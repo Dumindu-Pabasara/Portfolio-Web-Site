@@ -99,7 +99,36 @@ a{
     overflow: hidden;
     animation: fill-text 4s linear infinite;
 }
-
+@keyframes fill-text {
+    10%,
+    -100%{
+        width: 0;
+    }
+    70%,
+    90% {
+        width: 100%;
+    }
+}
+.home-info p{
+    font-size: 16px;
+    margin: 10px 0 25px;
+}
+.home-info .btn-sci{
+    display: flex;
+    align-items: center;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    background: #7cf03d;
+    border: 2px solid #7cf03d;
+    border-radius: 40px;
+    box-shadow: 0 0 10px #7cf03d;
+    font-size: 16px;
+    color: #1f242d;
+    font-weight: 600;
+    transition: .5s;
+}
 .btn:hover{
     background: transparent;
     color: #7cf03d;
