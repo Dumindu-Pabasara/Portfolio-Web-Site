@@ -55,7 +55,26 @@ a{
 .navbar ul li:hover a{
     color: #7cf03d;
 }
+.home{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    height: 100vh;
+    padding: 60px 9% 0;
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    animation: show-content 1.5s linear forwards;
+    animation-delay: 1.6s;
+}
+.home-info h1{
+    font-size: 55px;
 
+}
+.home-info h2{
+    font-size: 32px;
+    margin-top: -10px;
+}
 .home-info h2 span {
     position: relative;
     display: inline-block;
