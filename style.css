@@ -36,22 +36,7 @@ a{
         opacity: 1;
     }
 }
-.navbar .logo{
-    font-size: 30px;
-    font-weight: 700;
-}
-.navbar ul{
-    display: flex;
-}
-.navbar ul li{
-    list-style: none;
-    margin-left: 35px;
-}
-.navbar ul li a {
-    font-size: 20px;
-    font-weight: 500;
-    transition: .5s;
-}
+
 .navbar ul li:hover a{
     color: #7cf03d;
 }
